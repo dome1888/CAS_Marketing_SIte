@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1.text-6xl {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, sans-serif;
+  color: transparent;
+  background-image: linear-gradient(90deg, rgba(224, 0, 0, 1) 0%, rgba(224, 0, 0, 1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+p.text-xl {
+  font-family: "SF Pro Rounded", -apple-system, BlinkMacSystemFont, sans-serif;
+  color: rgba(32, 70, 47, 1);
+}
+
+main.flex {
+  color: rgba(224, 232, 217, 1) !important;
+  background-image: none !important;
+  background: none !important;
+}
